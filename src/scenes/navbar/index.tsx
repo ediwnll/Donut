@@ -17,7 +17,7 @@ export const Navbar = ({
   setSelectedPage,
 }: Props) => {
   const flexBetween = "flex items-center justify-between";
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1400px)");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1280px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const navbarBackground = isTopOfPage ? "" : "bg-greygreen-50 drop-shadow";
 
@@ -35,8 +35,8 @@ export const Navbar = ({
         </div>
         {/*Right*/}
         {isAboveMediumScreens ? (
-          <div className={`${flexBetween} px-32`}>
-            <div className={`${flexBetween} text-xl gap-60`}>
+          <div className={`${flexBetween} pr-32 pl-16`}>
+            <div className={`${flexBetween} text-xl gap-48`}>
               <Link
                 page="Home"
                 selectedPage={selectedPage}

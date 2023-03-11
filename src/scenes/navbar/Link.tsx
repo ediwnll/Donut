@@ -14,8 +14,8 @@ function Link({ page, selectedPage, setSelectedPage }: Props) {
   const flexBetween = "flex items-center justify-between";
   return (
     <AnchorLink
-      className={`${flexBetween} ${selectedPage === lowerCasePage ? "text-white" : ""}
-            transition: duration-500 hover:text-white`}
+      className={`${flexBetween} ${selectedPage === lowerCasePage ? "text-black" : ""}
+            transition: duration-500 hover:text-black`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
