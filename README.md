@@ -3,7 +3,7 @@ React website with the idea of Donuts
 
 ### Hosted on Cloudflare Pages
 
-Click here to access [Website](donut-dd4.pages.dev)
+Click here to access [Website](https://45cc5081.donut-dd4.pages.dev/)
 
 ### Features
 
